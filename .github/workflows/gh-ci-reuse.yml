@@ -11,6 +11,6 @@ jobs:
       - name: reviewdog-markdownlint
         uses: reviewdog/action-markdownlint@v0.2.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }} # TOKEN ADDED TO SECRETS
           reporter: github-pr-review
           filter_mode: nofilter # file to only check new or mod files
