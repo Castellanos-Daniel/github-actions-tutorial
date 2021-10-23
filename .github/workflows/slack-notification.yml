@@ -10,4 +10,4 @@ jobs:
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_WEBHOOK: ${{ secrets.TEST_WEBHOOK }}
-        SLACK_ICON: https://github.com/Castellanos-Daniel/github-actions-tutorial/blob/slack-test/.github/workflows/assets/github_actions.png
+        SLACK_ICON: https://github.com/Castellanos-Daniel/github-actions-tutorial/blob/slack-test/.github/workflows/assets/github_actions.png?size=48
